@@ -23,17 +23,17 @@ export interface Project {
 
 export const projects: Project[] = [
   {
-    title: "Library Management System with Hash Tables and Waitlist Queue",
+    title: "SVD Image Compression Tool",
     description:
-      "Modular library management system implemented in C using core data structures such as hash tables for efficient book lookup and a queue-based waitlist when all copies are issued. Supports operations like adding, issuing, returning and filtering books while maintaining persistent storage using binary files.",
-    stack: ["C", "Data Structures", "Hash Tables", "Queues", "File Handling"],
+      "Interactive image compression tool using Singular Value Decomposition (SVD) for low-rank matrix approximation, enabling visualization of reconstruction quality versus compression trade-offs on grayscale image matrices.",
+    stack: ["Python", "NumPy", "Matplotlib", "Linear Algebra"],
     repo: "public",
-    github: "https://github.com/BitwiseSage/Library-Management-System---DSA",
+    github: "https://github.com/BitwiseSage/SVD-Image-Compression-Tool",
   },
   {
     title: "Secure Multi-Client Chat System",
     description:
-      "CLI-based real-time chat application supporting multiple concurrent clients using TCP sockets. Implements SSL/TLS encryption for secure communication along with private messaging, room-based chats and file transfer between users.",
+      "CLI-based real-time chat application supporting multiple concurrent clients using TCP sockets with SSL/TLS encryption for secure communication, including private messaging and room-based chat functionality.",
     stack: ["Python", "TCP Sockets", "SSL/TLS", "Multithreading", "Cryptography"],
     repo: "public",
     github: "https://github.com/BitwiseSage/Secure-Chat-Room",
@@ -41,9 +41,11 @@ export const projects: Project[] = [
   {
     title: "Personal Developer Portfolio",
     description:
-      "Responsive portfolio website built using React and TailwindCSS to showcase development projects, technical skills and contact information in a clean and modern interface.",
-    stack: ["React", "TypeScript", "TailwindCSS", "Vite"],
+      "Responsive developer portfolio built using React, TypeScript, Tailwind CSS and Framer Motion to showcase projects, technical skills and contact information with a modern animated UI.",
+    stack: ["React", "TypeScript", "TailwindCSS", "Framer Motion", "Vite"],
     repo: "public",
+    github: "https://github.com/BitwiseSage/Personal-Portfolio",
+    live: "https://arfanasgar.vercel.app",
   },
 ];
 
@@ -74,4 +76,3 @@ export const skills: SkillCategory[] = [
   { category: "Technologies", skills: ["Git", "Machine Learning Basics"] },
   { category: "Soft Skills", skills: ["Leadership", "Communication", "Team Collaboration"] },
 ];
-
