@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { fadeInItem } from "@/lib/animations";
 
 const stats = [
-  { label: "Projects Built", value: "5+" },
-  { label: "GitHub Repositories", value: "4+" },
-  { label: "Years Coding", value: "2+" },
-  { label: "GPA", value: "7.75" }
+  { label: "Projects Built", value: "8+" },
+  { label: "GitHub Repositories", value: "7+" },
+  { label: "Years Coding", value: "3+" },
+  { label: "GPA", value: "7.88" }
 ];
 
 export default function StatsBar() {

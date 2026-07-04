@@ -70,9 +70,44 @@ export interface SkillCategory {
   skills: string[];
 }
 
+export interface SkillCategory {
+  category: string;
+  skills: string[];
+}
+
 export const skills: SkillCategory[] = [
-  { category: "Languages", skills: ["Python", "C", "C++", "JavaScript"] },
-  { category: "Web Development", skills: ["HTML", "React", "Node.js", "Express.js", "MongoDB"] },
-  { category: "Technologies", skills: ["Git", "Machine Learning Basics"] },
-  { category: "Soft Skills", skills: ["Leadership", "Communication", "Team Collaboration"] },
+  {
+    category: "Languages",
+    skills: ["Python", "C", "C++", "JavaScript", "SQL"],
+  },
+  {
+    category: "Web Development",
+    skills: [
+      "HTML/CSS",
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "REST APIs",
+    ],
+  },
+  {
+    category: "Technologies",
+    skills: [
+      "Git",
+      "GitHub",
+      "Linux",
+      "VS Code",
+      "Machine Learning Fundamentals",
+    ],
+  },
+  {
+    category: "Soft Skills",
+    skills: [
+      "Leadership",
+      "Communication",
+      "Problem Solving",
+      "Team Collaboration",
+    ],
+  },
 ];
